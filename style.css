@@ -16,6 +16,18 @@ nav .conteinary{
     justify-content: space-between;
     width: 100%;
 }
+nav  a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #9B9B9B;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: aliceblue;
+}
+/* partie left de mon navigateur */
 nav .conteinary .left {
     display: flex;
 }
@@ -29,17 +41,12 @@ nav div .icon-plus{
     background: black;
     padding: 10px;
 }
-nav  a{
-    text-decoration: none;
-    color: #9B9B9B;
-    line-height: 40px;
-    text-align: center;
-}
+/* partie right de mon navigateur */
 nav .conteinary .right{
     display: flex;
 }
 nav .right div{
-    border-left: solid 1px aliceblue;
+    border-left: solid 1px #9B9B9B;
     text-align: center;
     padding: 10px;
     width: 60px;
@@ -47,9 +54,23 @@ nav .right div{
 nav .right .shopping-cart{
     background-color: rgb(19, 228, 64);
 }
+nav .right .desktop:hover{
+    background-color: #000;
+}
+nav .right .tablet:hover{
+    background-color: #000;
+}
+nav .right .sharp-mobile:hover{
+    background-color: #000;
+}
 nav .right .shopping-cart:hover{
     background-color: #000;
 }
+nav .right .xmark:hover{
+    background-color: #000;
+}
+
+
 
 @media (max-width: 699px){
      nav .conteinary .right .desktop{
