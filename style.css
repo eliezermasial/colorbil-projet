@@ -82,19 +82,15 @@ nav .right .xmark:hover{
      nav .conteinary .right .sharp-mobile{
         display: none;
      }
-
-
-     @media (max-width: 673px) {
-        nav .conteinary .left .logo{
+      nav .conteinary .left .logo{
             border-right: solid 1px #9B9B9B;
             height: 50px;
-        }
-        nav .conteinary .left .logo img{
+     }
+      nav .conteinary .left .logo img{
             height: 30px;
-        }
-        nav .conteinary .left .icon-plus{
+     }
+      nav .conteinary .left .icon-plus{
             display: none;
-        }
      }
      
 }
