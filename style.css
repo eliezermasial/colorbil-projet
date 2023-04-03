@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-size: 16px;
     font-weight: 300;
@@ -5,10 +8,72 @@ body{
     margin: 0;
 }
 header nav{
+    position: relative;
     background: #333;
 }
-nav img{
+nav .conteinary{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav .conteinary .left {
+    display: flex;
+}
+nav .left .logo {
+    padding: 10px;
+}
+nav .left .logo img{
     height: 30px;
-    margin-top: 15px;
-    width: auto;
+}
+nav div .icon-plus{
+    background: black;
+    padding: 10px;
+}
+nav  a{
+    text-decoration: none;
+    color: #9B9B9B;
+    line-height: 40px;
+    text-align: center;
+}
+nav .conteinary .right{
+    display: flex;
+}
+nav .right div{
+    border-left: solid 1px aliceblue;
+    text-align: center;
+    padding: 10px;
+    width: 60px;
+}
+nav .right .shopping-cart{
+    background-color: rgb(19, 228, 64);
+}
+nav .right .shopping-cart:hover{
+    background-color: #000;
+}
+
+@media (max-width: 699px){
+     nav .conteinary .right .desktop{
+        display: none;
+     }
+     nav .conteinary .right .tablet{
+        display: none;
+     }
+     nav .conteinary .right .sharp-mobile{
+        display: none;
+     }
+
+
+     @media (max-width: 673px) {
+        nav .conteinary .left .logo{
+            border-right: solid 1px #9B9B9B;
+            height: 50px;
+        }
+        nav .conteinary .left .logo img{
+            height: 30px;
+        }
+        nav .conteinary .left .icon-plus{
+            display: none;
+        }
+     }
+     
 }
