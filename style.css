@@ -3,94 +3,98 @@
 }
 body{
     font-size: 16px;
-    font-weight: 300;
     font-family: 'Roboto', sans-serif;
+    background: #000;
     margin: 0;
 }
-header nav{
-    position: relative;
-    background: #333;
-}
-nav .conteinary{
-    display: flex;
-    justify-content: space-between;
+.entete-cacher{
+    display: none;
+    background: #fff;
+    padding: 17px;
+    height: 70px;
     width: 100%;
 }
-nav  a{
+.entete-cacher button{
+    background: #fff;
+    border: solid 1px #cac7c7;
+    border-radius: 4px;
+    padding: 10px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(img/image_1.jpg.webp);
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2222229a;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+nav a {
     text-decoration: none;
-    background-color: transparent;
-    color: #9B9B9B;
-    line-height: 40px;
-    text-align: center;
-    text-transform: uppercase;
-}
-nav a:hover{
     color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
-/* partie left de mon navigateur */
-nav .conteinary .left {
+nav .liens{
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    width: 50%;
 }
-nav .left .logo {
-    padding: 10px;
-}
-nav .left .logo img{
-    height: 30px;
-}
-nav div .icon-plus{
-    background: black;
-    padding: 10px;
-}
-/* partie right de mon navigateur */
-nav .conteinary .right{
-    display: flex;
-}
-nav .right div{
-    border-left: solid 1px #9B9B9B;
+header .titles{
     text-align: center;
-    padding: 10px;
-    width: 60px;
+    position: absolute;
+    
+    z-index: 1;
+    justify-content: center;
 }
-nav .right .shopping-cart{
-    background-color: rgb(19, 228, 64);
+header .titles .hello{
+    color: rgba(240, 248, 255, 0.918);
+    font-size: 45px;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 5px;
 }
-nav .right .desktop:hover{
-    background-color: #000;
+header .titles h1{
+    color: aliceblue;
+    font-size: 50Px;
+    font-weight: 800;
+    width: 100%;
 }
-nav .right .tablet:hover{
-    background-color: #000;
-}
-nav .right .sharp-mobile:hover{
-    background-color: #000;
-}
-nav .right .shopping-cart:hover{
-    background-color: #000;
-}
-nav .right .xmark:hover{
-    background-color: #000;
+header .titles .little-title{
+    color: rgba(240, 248, 255, 0.562);
 }
 
 
 
-@media (max-width: 699px){
-     nav .conteinary .right .desktop{
+@media (max-width: 699px) {
+    .entete-cacher{
+        display: block;
+        background: #fff;
+        padding: 17px;
+        height: 70px;
+        width: 100%;
+    }
+    nav .liens{
         display: none;
-     }
-     nav .conteinary .right .tablet{
-        display: none;
-     }
-     nav .conteinary .right .sharp-mobile{
-        display: none;
-     }
-      nav .conteinary .left .logo{
-            border-right: solid 1px #9B9B9B;
-            height: 50px;
-     }
-      nav .conteinary .left .logo img{
-            height: 30px;
-     }
-      nav .conteinary .left .icon-plus{
-            display: none;
-     }
-     
+    }
+    header .titles{
+        display: flex;
+        flex-direction: column;
+    }
+    header .titles h1{
+        color: aliceblue;
+        font-size: 30Px;
+        font-weight: 800;
+        width: 100%;
+    }
 }
