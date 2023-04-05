@@ -191,14 +191,14 @@ section .conteinary-portfolio .entete-portfolio{
     }
     .conteinary-portfolio .images-portfolio .cloc-image{
         text-align: center;
-        width: 500px;
+        width: 350px;
         height: 400px;
         margin-left: 25px;
         margin-right: 25px;
         margin-bottom: 15%;
     }
     .conteinary-portfolio .images-portfolio .cloc-image img{
-        width: 450px;
+        width: 350px;
         height: 350px;
     }
 }
