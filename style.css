@@ -171,7 +171,7 @@ section .conteinary-portfolio .entete-portfolio{
     }
     /* la partie section portfolio */
     section{
-        display: block;
+        display: flex;
         margin-bottom: 10%;
     }
     .conteinary-portfolio .liens-portfolio{
