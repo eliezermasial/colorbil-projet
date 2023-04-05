@@ -176,7 +176,7 @@ section .conteinary-portfolio .entete-portfolio{
     }
     .conteinary-portfolio .liens-portfolio{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-self: center;
         width: 70%;
         height: 10vh;
