@@ -124,49 +124,31 @@ section .conteinary-portfolio .entete-portfolio{
     margin: 2%;
     margin-top: 30px;
 }
-.conteinary-portfolio .images-portfolio .cloc-image{
+.conteinary-portfolio .images-portfolio .block-image{
     text-align: center;
     width: 350px;
     height: 400px;
     margin-right: 25px;
     margin-bottom: 5%;
 }
-.conteinary-portfolio .images-portfolio .cloc-image img{
+.conteinary-portfolio .images-portfolio .block-image img{
     width: 100%;
     height: 100%;
 }
-.images-portfolio .cloc-image .paragraph-image{
+.images-portfolio .block-image .paragraph-image{
     margin-top: 20px;
     text-transform: capitalize;
 }
-.images-portfolio .cloc-image .paragraph-image strong{
+.images-portfolio .block-image .paragraph-image strong{
     font-weight: 800;
     color: rgba(240, 248, 255, 0.945);
 }
-.images-portfolio .cloc-image .paragraph-image p{
+.images-portfolio .block-image .paragraph-image p{
     text-transform: uppercase;
     font-weight: 300;
     font-size: 13px;
 }
-footer{
-    display: flex;
-    justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
-}
-footer div{
-    color: #cac7c7;
-    margin-right: 10px;
-}
-footer .icone {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-}
-footer div:hover{
-    color: rgba(192, 221, 28, 0.808);
-    margin-right: 10px;
-}
+
 
 @media (max-width: 790px) {
     .entete-cacher{
@@ -203,16 +185,14 @@ footer div:hover{
         width: 70%;
         height: 10vh;
     }
-    .conteinary-portfolio .liens-portfolio li{
-        font-size: 12px;
-    }
+    
     .conteinary-portfolio .images-portfolio{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 30px;
     }
-    .conteinary-portfolio .images-portfolio .cloc-image{
+    .conteinary-portfolio .images-portfolio .block-image{
         text-align: center;
         width: 100%;
         height: 100%;
@@ -220,7 +200,7 @@ footer div:hover{
         margin-right: 5px;
         margin-bottom: 5%;
     }
-    .conteinary-portfolio .images-portfolio .cloc-image img{
+    .conteinary-portfolio .images-portfolio .block-image img{
         width: 100%;
         height: 100%;
     }
