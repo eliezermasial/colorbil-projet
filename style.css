@@ -189,6 +189,7 @@ li{
     width: 535px;
     height: 150px;
     margin: 20px;
+    margin-bottom: 0;
     padding: 5px;
     background-color: rgba(240, 248, 255, 0.055);
     color: rgba(240, 248, 255, 0.5);
@@ -200,6 +201,57 @@ li{
 }
 .conteinary-resume .block-resume h3{
     color: rgba(192, 221, 28, 0.404);
+}
+
+/* section abaut me */
+
+.section-abautme{
+    display: flex;
+    justify-content: center;
+}
+.conteinary-about{
+    display: flex;
+    justify-content: center;
+    margin: 3%;
+}
+.conteinary-about div{
+    margin: 20px;
+    vertical-align: middle;
+}
+
+.img-about img{
+    width: 600px;
+    height: auto;
+    vertical-align: middle;
+
+}
+.conteinary-about .about-me h2{
+    font-size: 40px;
+    color: #fdfdfdcc;
+}
+.conteinary-about .about-me{
+    height: 300px;
+    margin-top: 30px;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(240, 248, 255, 0.5);
+}
+.conteinary-about .about-me a{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px;
+}
+.conteinary-about .about-me .btn-primary{
+    background-color: #bac964;
+    border: solid 1px #bac964;
+}
+.conteinary-about .about-me .btn-second{
+    background-color: #6c757d;
+    border-color: #6c757d;
 }
 
 
@@ -264,13 +316,11 @@ li{
         justify-content: center;
         margin: 15px;
     }
-    
     .my-resume div{
       display: flex;
       font-size: 20px;
       font-weight: 700;
     }
-    
     .section-resume{
         display: block;
         margin: 20px;
@@ -288,5 +338,26 @@ li{
     }
     .conteinary-resume span{
         margin: 5px;
+    }
+    /* section about me */
+    .section-abautme{
+        display: block;
+    }
+    .conteinary-about{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .conteinary-about div{
+        margin: 20px;
+    }
+    .img-about img{
+        width: 100%;
+        height: auto;
+    }
+    .conteinary-about .about-me{
+        font-size: 15px;
+        line-height: normal;
+        margin-top: 0;
     }
 }
