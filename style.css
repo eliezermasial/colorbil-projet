@@ -3,7 +3,7 @@
 }
 body{
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     text-transform: capitalize;
     background: #222;
     color: #fff;
@@ -78,15 +78,15 @@ header .titles .little-title{
 
 /* la partie portfolo de ce site */
 
-section{
+.section-portfolio{
     display: flex;
     justify-content: center;
-    margin-bottom: 5%;
+    margin-bottom: 4%;
 }
 li{
     list-style: none;
 }
-section .conteinary-portfolio .entete-portfolio{
+.section-portfolio .conteinary-portfolio .entete-portfolio{
     display: flex;
     margin-top: 70px;
     margin-bottom: 40px;
@@ -149,6 +149,60 @@ section .conteinary-portfolio .entete-portfolio{
     font-size: 13px;
 }
 
+/* la section resume de ce site */
+.my-resume{
+    display: flex;
+    justify-content: center;
+}
+.my-resume div{
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+}
+.my-resume div strong{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    color: rgba(240, 248, 255, 0.719);
+    font-size: 30px;
+    margin-right: 20px;
+  }
+.section-resume{
+    display: flex;
+    justify-content: center;
+}
+.conteinary-resume{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3%;
+}
+.conteinary-resume span{
+    font-size: 30px;
+    color: rgba(240, 248, 255, 0.849);
+    margin: 20px;
+}
+.conteinary-resume .block-resume{
+    font-size: 12px;
+    font-weight: 700;
+    width: 535px;
+    height: 150px;
+    margin: 20px;
+    padding: 5px;
+    background-color: rgba(240, 248, 255, 0.055);
+    color: rgba(240, 248, 255, 0.5);
+    border: solid 1px #22222298;
+    border-radius: 4px;
+}
+.conteinary-resume .block-resume strong{
+    color: aliceblue;
+}
+.conteinary-resume .block-resume h3{
+    color: rgba(192, 221, 28, 0.404);
+}
+
+
 
 @media (max-width: 790px) {
     .entete-cacher{
@@ -172,7 +226,7 @@ section .conteinary-portfolio .entete-portfolio{
         width: 100%;
     }
     /* la partie section portfolio */
-    section{
+    .section-portfolio{
         display: flex;
         padding-bottom: 5%;
     }
@@ -182,7 +236,7 @@ section .conteinary-portfolio .entete-portfolio{
     .conteinary-portfolio .liens-portfolio{
         display: flex;
         flex-wrap: wrap;
-        width: 70%;
+        width: 100%;
         height: 10vh;
     }
     
@@ -203,5 +257,36 @@ section .conteinary-portfolio .entete-portfolio{
     .conteinary-portfolio .images-portfolio .block-image img{
         width: 100%;
         height: 100%;
+    }
+    /* la section resume */
+    .my-resume{
+        display: flex;
+        justify-content: center;
+        margin: 15px;
+    }
+    
+    .my-resume div{
+      display: flex;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    
+    .section-resume{
+        display: block;
+        margin: 20px;
+    }
+    .conteinary-resume{
+        display: block;
+        margin: 3%;
+    }
+    .conteinary-resume .block-resume{
+        width: 100%;
+        height: 100%;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px;
+    }
+    .conteinary-resume span{
+        margin: 5px;
     }
 }
