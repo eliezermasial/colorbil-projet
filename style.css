@@ -154,12 +154,12 @@ li{
     display: flex;
     justify-content: center;
 }
-.my-resume div{
+.my-resume {
   display: flex;
   font-size: 20px;
   font-weight: 700;
 }
-.my-resume div strong{
+.my-resume  strong{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,28 +173,31 @@ li{
     justify-content: center;
 }
 .conteinary-resume{
+   width: 100%;
+}
+.conteinary-resume .conteny-resume{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 3%;
+    margin: 2%;
 }
+
 .conteinary-resume span{
     font-size: 30px;
     color: rgba(240, 248, 255, 0.849);
     margin: 20px;
 }
 .conteinary-resume .block-resume{
-    font-size: 12px;
-    font-weight: 700;
     width: 535px;
-    height: 150px;
-    margin: 20px;
-    margin-bottom: 0;
-    padding: 5px;
-    background-color: rgba(240, 248, 255, 0.055);
+    height: auto;
+    font-weight: 300;
     color: rgba(240, 248, 255, 0.5);
+    background-color: #333;
     border: solid 1px #22222298;
-    border-radius: 4px;
+    border-radius: 8px;
+    margin: 25px;
+    margin-bottom: 5%;
+    padding: 10px;
 }
 .conteinary-resume .block-resume strong{
     color: aliceblue;
@@ -203,7 +206,7 @@ li{
     color: rgba(192, 221, 28, 0.404);
 }
 
-/* section abaut me */
+/* section abaut 
 
 .section-abautme{
     display: flex;
@@ -253,7 +256,7 @@ li{
     background-color: #6c757d;
     border-color: #6c757d;
 }
-
+me */
 
 
 @media (max-width: 790px) {
@@ -291,7 +294,6 @@ li{
         width: 100%;
         height: 10vh;
     }
-    
     .conteinary-portfolio .images-portfolio{
         display: flex;
         flex-wrap: wrap;
@@ -321,24 +323,17 @@ li{
       font-size: 20px;
       font-weight: 700;
     }
-    .section-resume{
-        display: block;
-        margin: 20px;
-    }
-    .conteinary-resume{
-        display: block;
-        margin: 3%;
+    .conteinary-resume .conteny-resume{
+        margin: 2%;
     }
     .conteinary-resume .block-resume{
-        width: 100%;
-        height: 100%;
+        width: 450px;
+        height: auto;
         margin-left: 5px;
         margin-right: 5px;
-        padding: 5px;
+        padding: 10px;
     }
-    .conteinary-resume span{
-        margin: 5px;
-    }
+    
     /* section about me */
     .section-abautme{
         display: block;
