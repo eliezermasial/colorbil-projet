@@ -5,6 +5,7 @@ body{
     font-size: 16px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     text-transform: capitalize;
+    line-height: 1.7;
     background: #222;
     color: #fff;
     margin: 0;
@@ -207,57 +208,59 @@ li{
     color: rgba(192, 221, 28, 0.404);
 }
 
-/* section abaut 
+/* section abaut me */
 
 .section-abautme{
     display: flex;
     justify-content: center;
 }
 .conteinary-about{
+     width: 100%;
+}
+.conteny-about{
     display: flex;
-    justify-content: center;
-    margin: 3%;
+    justify-content: space-evenly;
+    margin: 2%;
 }
-.conteinary-about div{
-    margin: 20px;
-    vertical-align: middle;
+.conteny-about .img-about{
+    height: 340px;
 }
-
 .img-about img{
-    width: 600px;
+    width: 500px;
     height: auto;
     vertical-align: middle;
-
 }
-.conteinary-about .about-me h2{
-    font-size: 40px;
+.conteny-about .about-me h2{
+    font-size: 30px;
     color: #fdfdfdcc;
 }
-.conteinary-about .about-me{
-    height: 300px;
-    margin-top: 30px;
-    line-height: 1.7;
-    font-size: 16px;
+.conteny-about .about-me{
     font-weight: 300;
+    vertical-align: middle;
     color: rgba(240, 248, 255, 0.5);
+    height: 340px;
+    padding: 25px;
+    padding-top: 0;
 }
-.conteinary-about .about-me a{
+.conteny-about .about-me a{
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
-    border-radius: 30px;
+    border-radius: 20px;
     color: #fff;
     padding: 5px;
 }
-.conteinary-about .about-me .btn-primary{
+.conteny-about .about-me .btn-primary{
     background-color: #bac964;
     border: solid 1px #bac964;
 }
-.conteinary-about .about-me .btn-second{
+.conteny-about .about-me .btn-second{
     background-color: #6c757d;
     border-color: #6c757d;
 }
-me */
+
+
+
 
 
 @media (max-width: 1180px) {
@@ -315,7 +318,6 @@ me */
     }
     /* la section resume */
     .section-resume{
-        
         display: block;
         width: 100%;
     }
@@ -334,6 +336,7 @@ me */
         flex-wrap: wrap;
         justify-content: center;
         margin: 2%;
+        background-color: green;
     }
     .conteinary-resume .block-resume{
         font-weight: normal;
@@ -344,25 +347,52 @@ me */
         padding: 10px;
     }
     
-    /* section about me */
+    /* section about me*/
     .section-abautme{
         display: block;
+        background-color: red;
     }
     .conteinary-about{
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
+        width: 100%;
     }
-    .conteinary-about div{
-        margin: 20px;
+    .conteny-about{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       margin: 2%;
+       background-color: aqua;width: 100%;
+    }
+    .conteny-about .img-about{
+        width: 345px;
+        height: 230px;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 8px;
+        margin-bottom: 8px;
     }
     .img-about img{
-        width: 100%;
+        width: 345px;
         height: auto;
+        vertical-align: middle;
     }
-    .conteinary-about .about-me{
-        font-size: 15px;
-        line-height: normal;
-        margin-top: 0;
+    .conteny-about .about-me{
+        width: 345px;
+        height: 250px;
+        font-weight: 300;
+        font-size: 11px;
+        vertical-align: middle;
+        color: rgba(240, 248, 255, 0.5);
+        padding: 5px;
+        padding-top: 0;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 50%;
+    }
+    .conteny-about .about-me h2{
+        font-size: 20px;
+        color: #fdfdfdcc;
     }
 }
