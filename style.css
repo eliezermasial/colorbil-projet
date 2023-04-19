@@ -310,6 +310,7 @@ li{
         height: 400px;
         margin-left: 10px;
         margin-right: 10px;
+        margin-top: 10px;
         margin-bottom: 5%;
     }
     .conteinary-portfolio .images-portfolio .block-image img{
@@ -336,7 +337,6 @@ li{
         flex-wrap: wrap;
         justify-content: center;
         margin: 2%;
-        background-color: green;
     }
     .conteinary-resume .block-resume{
         font-weight: normal;
@@ -350,7 +350,6 @@ li{
     /* section about me*/
     .section-abautme{
         display: block;
-        background-color: red;
     }
     .conteinary-about{
         display: flex;
@@ -362,7 +361,6 @@ li{
        flex-wrap: wrap;
        justify-content: space-evenly;
        margin: 2%;
-       background-color: aqua;width: 100%;
     }
     .conteny-about .img-about{
         width: 345px;
@@ -389,7 +387,7 @@ li{
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: 50%;
+        margin-bottom: 10px;
     }
     .conteny-about .about-me h2{
         font-size: 20px;
