@@ -359,7 +359,8 @@ li{
     .conteny-about{
        display: flex;
        flex-wrap: wrap;
-       justify-content: space-evenly;
+       justify-content: center;
+       width: 100%;
        margin: 2%;
     }
     .conteny-about .img-about{
@@ -367,7 +368,7 @@ li{
         height: 230px;
         margin-top: 10px;
         margin-left: 10px;
-        margin-right: 8px;
+        margin-right: 10px;
         margin-bottom: 8px;
     }
     .img-about img{
@@ -378,19 +379,20 @@ li{
     .conteny-about .about-me{
         width: 345px;
         height: 250px;
-        font-weight: 300;
-        font-size: 11px;
+        font-weight: 500;
+        font-size: 12px;
         vertical-align: middle;
         color: rgba(240, 248, 255, 0.5);
         padding: 5px;
-        padding-top: 0;
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 10px;
     }
     .conteny-about .about-me h2{
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: 500;
         color: #fdfdfdcc;
+        margin-top: 0;
     }
 }
