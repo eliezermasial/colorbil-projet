@@ -360,6 +360,7 @@ li{
     .section-portfolio{
         display: flex;
         padding-bottom: 5%;
+        overflow-x: hidden;
     }
     .conteinary-portfolio{
         padding: 5px;
