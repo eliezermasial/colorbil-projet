@@ -581,8 +581,8 @@ li{
     .contenu-service .block-service{
         margin-bottom: 20px;
         width: 345px;
-        height: 345px;
-        padding: 20px;
+        height: 350px;
+        padding: 10px;
         margin: 10px;
     } 
     .block-service span{
