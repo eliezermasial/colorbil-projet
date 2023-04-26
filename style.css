@@ -198,7 +198,7 @@ li{
     border-radius: 8px;
     margin: 25px;
     margin-bottom: 5%;
-    padding: 10px;
+    padding: 15px;
 }
 .conteinary-resume .block-resume strong{
     color: aliceblue;
@@ -212,16 +212,18 @@ li{
 .section-abautme{
     display: flex;
     justify-content: center;
+    margin-bottom: 10%;
 }
 .conteinary-about{
      width: 100%;
 }
 .conteny-about{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 2%;
 }
 .conteny-about .img-about{
+    width: 510px;
     height: 340px;
 }
 .img-about img{
@@ -237,9 +239,11 @@ li{
     font-weight: 300;
     vertical-align: middle;
     color: rgba(240, 248, 255, 0.5);
+    width: 510px;
     height: 340px;
     padding: 25px;
     padding-top: 0;
+    margin-left: 50px;
 }
 .conteny-about .about-me a{
     text-transform: uppercase;
@@ -262,6 +266,7 @@ li{
 .section-testimonial{
     display: flex;
     justify-content: center;
+    margin-bottom: 10%;
 }
 .conteinary-testimonial{
     width: 100%;
@@ -331,8 +336,72 @@ li{
     text-decoration: none;
     color: #bac964;
 }
-
-
+/* secition service du site */
+.section-service{
+    display: flex;
+    justify-content: center;
+}
+.conteinary-service{
+    width: 100%;
+}
+.conteinary-service .title-service{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    color: #fff;
+}
+.title-service H3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh;
+    margin-right: 10px;
+    font-size: 25px;
+    color: #ffffffc5;
+}
+.title-service H1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    font-size: 30px;
+}
+.contenu-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+.contenu-service .block-service{
+    text-align: center;
+    width: 300px;
+    height: 457px;
+    color: rgba(240, 248, 255, 0.5);
+    background-color: #333;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.block-service span{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    background-color: #bac964;
+    border: #bac964;
+    margin: 10px;
+    margin-top: 80px;
+    border-radius: 100px;
+}
+.block-service h3{
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 50px;
+    color: #fff;
+    font-family: inherit;
+}
+.block-service a{
+    text-decoration: none;
+    color: #bac964;
+}
 
 
 @media (max-width: 1180px) {
@@ -419,8 +488,9 @@ li{
         margin-right: 10px;
         padding: 10px;
     }
-    
+
     /* section about me*/
+
     .section-abautme{
         display: block;
     }
@@ -476,8 +546,14 @@ li{
     .conteinary-testimonial{
         width: 100%;
     }
+    .conteny-testimonial{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2%;
+    }
     .block-testimonial{
-        width: 100%;
+        width: 350px;
         height: auto;
         margin: 25px;
         margin-bottom: 5%;
@@ -488,5 +564,34 @@ li{
     .block-testimonial .contenu-client{
         margin-left: 15px;
         margin-right: 10px;
+    }
+    /* section service */
+    .section-service{
+        display: block;
+    }
+    .conteinary-service{
+        width: 100%;
+    }
+    .contenu-service{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 2%;
+    }
+    .contenu-service .block-service{
+        margin-bottom: 20px;
+        width: 345px;
+        height: 345px;
+        padding: 20px;
+        margin: 10px;
+    } 
+    .block-service span{
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .block-service h3{
+        margin-top: 20px;
     }
 }
