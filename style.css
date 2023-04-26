@@ -215,13 +215,11 @@ li{
 }
 .conteinary-about{
      width: 100%;
-     background-color: red;
 }
 .conteny-about{
     display: flex;
     justify-content: space-evenly;
     margin: 2%;
-    background-color: yellow;
 }
 .conteny-about .img-about{
     height: 340px;
@@ -267,12 +265,10 @@ li{
 }
 .conteinary-testimonial{
     width: 100%;
-    background-color: #bac964;
 }
 .title-testimonial{
     display: flex;
     justify-content: center;
-    background-color: hotpink;
     margin: 2%;
     color: #fff;
 }
