@@ -82,7 +82,7 @@ header .titles .little-title{
 .section-portfolio{
     display: flex;
     justify-content: center;
-    margin-bottom: 4%;
+    margin-bottom: 10%;
 }
 li{
     list-style: none;
@@ -128,9 +128,9 @@ li{
 .conteinary-portfolio .images-portfolio .block-image{
     text-align: center;
     width: 350px;
-    height: 400px;
+    height: 420px;
     margin-right: 25px;
-    margin-bottom: 5%;
+    margin-bottom: 10px;
 }
 .conteinary-portfolio .images-portfolio .block-image img{
     width: 100%;
@@ -138,11 +138,14 @@ li{
 }
 .images-portfolio .block-image .paragraph-image{
     text-transform: capitalize;
-   
+    padding-bottom: 1px;
+    line-height: normal;
+    margin-bottom: 1px;
 }
 .images-portfolio .block-image .paragraph-image strong{
     font-weight: 800;
     color: rgba(240, 248, 255, 0.945);
+    font-size: 13px;
 }
 .images-portfolio .block-image .paragraph-image p{
     text-transform: uppercase;
@@ -154,6 +157,8 @@ li{
 .my-resume{
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
+    margin: 2%;
 }
 .my-resume {
   display: flex;
@@ -172,6 +177,7 @@ li{
 .section-resume{
     display: flex;
     justify-content: center;
+    margin-bottom: 10%;
 }
 .conteinary-resume{
    width: 100%;
@@ -223,27 +229,41 @@ li{
     margin: 2%;
 }
 .conteny-about .img-about{
-    width: 510px;
-    height: 340px;
+    text-align: center;
+    width: 560px;
+    height: 420px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    
 }
 .img-about img{
-    width: 500px;
-    height: auto;
+    width: 560px;
+    height: 420px;
     vertical-align: middle;
+    font-weight: 800;
 }
 .conteny-about .about-me h2{
     font-size: 30px;
     color: #fdfdfdcc;
+    margin-top: 0px;
 }
 .conteny-about .about-me{
     font-weight: 300;
     vertical-align: middle;
     color: rgba(240, 248, 255, 0.5);
-    width: 510px;
-    height: 340px;
+    width: 500px;
+    height: 350px;
     padding: 25px;
-    padding-top: 0;
-    margin-left: 50px;
+    padding-left: 30px;
+    padding-right: 12px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+   
+}
+.conteny-about .about-me .about-lien{
+    margin-top: 40px;
 }
 .conteny-about .about-me a{
     text-transform: uppercase;
@@ -252,8 +272,11 @@ li{
     border-radius: 20px;
     color: #fff;
     padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .conteny-about .about-me .btn-primary{
+    
     background-color: #bac964;
     border: solid 1px #bac964;
 }
@@ -275,6 +298,7 @@ li{
     display: flex;
     justify-content: center;
     margin: 2%;
+    margin-bottom: 0;
     color: #fff;
 }
 .title-testimonial H3{
@@ -298,6 +322,7 @@ li{
     flex-wrap: wrap;
     justify-content: center;
     margin: 2%;
+    margin-top: 0;
 }
 .block-testimonial{
     display: flex;
@@ -340,6 +365,7 @@ li{
 .section-service{
     display: flex;
     justify-content: center;
+    margin-bottom: 10%;
 }
 .conteinary-service{
     width: 100%;
@@ -348,6 +374,7 @@ li{
     display: flex;
     justify-content: center;
     margin: 2%;
+    margin-bottom: 0;
     color: #fff;
 }
 .title-service H3{
@@ -369,16 +396,19 @@ li{
 .contenu-service{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 2%;
+    margin-top: 0;
 }
 .contenu-service .block-service{
     text-align: center;
-    width: 300px;
+    width: 343px;
     height: 457px;
     color: rgba(240, 248, 255, 0.5);
     background-color: #333;
     padding: 30px;
+    margin: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .block-service span{
@@ -428,7 +458,6 @@ li{
     /* la partie section portfolio */
     .section-portfolio{
         display: flex;
-        padding-bottom: 5%;
         overflow-x: hidden;
     }
     .conteinary-portfolio{
@@ -507,30 +536,35 @@ li{
        margin: 2%;
     }
     .conteny-about .img-about{
+        font-weight: 800;
         width: 345px;
-        height: 230px;
+        height: 310px;
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
-        margin-bottom: 8px;
+        margin-bottom: 5px;
     }
     .img-about img{
+        font-weight: 800;
         width: 345px;
-        height: auto;
+        height: 310px;
         vertical-align: middle;
     }
     .conteny-about .about-me{
         width: 345px;
-        height: 250px;
-        font-weight: 500;
-        font-size: 12px;
+        height: 315px;
+        font-weight: 300;
+        font-size: 15px;
         vertical-align: middle;
         color: rgba(240, 248, 255, 0.5);
         padding: 5px;
-        margin-top: 10px;
+        margin-top: 0;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 10px;
+    }
+    .conteny-about .about-me .about-lien{
+        margin-top: 20px;
     }
     .conteny-about .about-me h2{
         font-size: 25px;
@@ -553,17 +587,24 @@ li{
         margin: 2%;
     }
     .block-testimonial{
-        width: 350px;
-        height: auto;
-        margin: 25px;
+        width: 100%;
+        height: 280px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
         margin-bottom: 5%;
     }
-    .block-testimonial .image img{
-        margin-left: 10px;
+    .block-testimonial .image{
+        margin-left: 8px;
     }
     .block-testimonial .contenu-client{
         margin-left: 15px;
         margin-right: 10px;
+        height: 280px;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-bottom: 0;
     }
     /* section service */
     .section-service{
