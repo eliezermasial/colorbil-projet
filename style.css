@@ -710,6 +710,7 @@ li{
         width: 345px;
         height: 350px;
         padding: 10px;
+        padding-top: 25px;
         margin: 10px;
     } 
     .block-service span{
