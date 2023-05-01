@@ -563,7 +563,6 @@ li{
     border-radius: 8px;
     margin-right: 1px;
     margin-bottom: 2%;
-    background-color: #cac7c7;
 }
 .input-groupe input{
     width: 100%;
@@ -598,13 +597,16 @@ li{
 }
 .button-send .btn-send{
     text-transform: uppercase;
+    text-align: center;
     font-size: 12px;
     letter-spacing: 0.2rem;
     color: rgb(255, 255, 255);
     background-color: #bac964;
-    border-color: #bac964;
+    border-style: none;
     border-radius: 100px;
-    padding: 20px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 .MyContact-Details{
     width: 410px;
@@ -614,7 +616,6 @@ li{
     margin: 25px;
     margin-top: 0;
     margin-bottom: 5%;
-    background-color: #cac7c7;
 }
 
 .MyContact-Details ul{
