@@ -447,11 +447,11 @@ li{
     margin: 2%;
     margin-bottom: 0;
 }
-.title-medium H3{
+.title-medium span{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 7vh;
+    height: 14vh;
     margin-right: 10px;
     font-size: 25px;
     color: #ffffffc5;
@@ -480,7 +480,7 @@ li{
     margin-bottom: 20px;
 }
 .block-medium .image-medium{
-   height: 255px;
+    height: 255px;
     background-color: #bac964;
 }
 .image-medium img{
@@ -511,13 +511,123 @@ li{
 .block-medium .article-medium .meta-icons a:hover{
     color: #bac964;
 }
+/* section contact*/
+.section-contact{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.conteinary-contact{
+    width: 100%;
+}
+.title-contact{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    margin-bottom: 0;
+}
+.title-contact span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+    margin-right: 10px;
+    font-size: 30px;
+    font-family: initial;
+    color: #ffffffc5;
+}
+.title-contact H1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    font-size: 30px;
+}
+.contenu-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2%;
+    margin-top: 0;
+}
+.contenu-contact .GetIn-Touch{
+    padding-bottom: 5px;
+}
+.contenu-contact h3{
+    font-family: initial;
+}
+.input-groupe{
+    width: 610px;
+    height: auto;
+    font-weight: 300;
+    border-radius: 8px;
+    margin-right: 1px;
+    margin-bottom: 2%;
+    background-color: #cac7c7;
+}
+.input-groupe input{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-transform: capitalize;
+    background: rgb(51, 51, 51);
+    border: solid 1px rgb(51, 51, 51);
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.input-textarea{
+    width: 610px;
+    height: 300px;
+    margin-bottom: 2%;
+}
+.input-textarea textarea{
+    width: 610px;
+    height: 300px;
+    text-transform: capitalize;
+    font-weight: 300px;
+    font-size: 1rem;
+    line-height: 1.5;
+    background: rgb(51, 51, 51);
+    border: solid 1px rgb(51, 51, 51);
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+.button-send .btn-send{
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+    color: rgb(255, 255, 255);
+    background-color: #bac964;
+    border-color: #bac964;
+    border-radius: 100px;
+    padding: 20px;
+}
+.MyContact-Details{
+    width: 410px;
+    height: auto;
+    font-weight: 300;
+    border-radius: 8px;
+    margin: 25px;
+    margin-top: 0;
+    margin-bottom: 5%;
+    background-color: #cac7c7;
+}
 
-
-
-
-
-
-
+.MyContact-Details ul{
+    font-size: 14px;
+    padding-left: 0;
+}
+.MyContact-Details ul li span{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(44, 62, 80);
+    letter-spacing: 0.1em;
+    margin-bottom: 5px;
+}
 
 
 @media (max-width: 1180px) {
@@ -603,7 +713,7 @@ li{
         margin-right: 10px;
         padding: 10px;
     }
-    
+
     /* section about me*/
     .section-abautme{
         display: block;
@@ -677,7 +787,7 @@ li{
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 0;
-        margin-bottom: 5%;
+        margin-bottom: 7%;
     }
     .block-testimonial .image{
         margin-left: 5px;
@@ -705,12 +815,12 @@ li{
         margin: 2%;
     }
     .contenu-service .block-service{
-        margin-bottom: 20px;
         width: 345px;
         height: 350px;
         padding: 10px;
         padding-top: 25px;
         margin: 10px;
+        margin-bottom: 7%;
     } 
     .block-service span{
         width: 50px;
@@ -721,5 +831,50 @@ li{
     }
     .block-service h3{
         margin-top: 20px;
+    }
+    /*section contact*/
+    .section-contact{
+        display: block;
+    }
+    .contenu-contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2%;
+    }
+    .contenu-contact .GetIn-Touch{
+        width: 100%;
+        padding: 10px;
+        padding-top: 0;
+        padding-bottom: 5px;
+    }
+    .contenu-contact h3{
+        font-family: initial;
+    }
+    .input-groupe{
+        width: 100%;
+        height: auto;
+    }
+    .input-groupe input{
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1.5;
+        text-transform: capitalize;
+    }
+    .input-textarea{
+        width: 100%;
+        height: 300px;
+    }
+    .input-textarea textarea{
+        width: 100%;
+        height: 300px;
+    }
+    .MyContact-Details{
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        margin-top: 0;
     }
 }
