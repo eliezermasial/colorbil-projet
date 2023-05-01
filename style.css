@@ -603,9 +603,8 @@ li{
         margin-right: 10px;
         padding: 10px;
     }
-
+    
     /* section about me*/
-
     .section-abautme{
         display: block;
     }
@@ -673,19 +672,19 @@ li{
         margin: 2%;
     }
     .block-testimonial{
-        width: 100%;
+        width: 350px;
         height: 280px;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 20px;
+        margin-right: 20px;
         margin-top: 0;
         margin-bottom: 5%;
     }
     .block-testimonial .image{
-        margin-left: 8px;
+        margin-left: 5px;
     }
     .block-testimonial .contenu-client{
+        width: 350px;
         margin-left: 15px;
-        margin-right: 10px;
         height: 280px;
         padding-top: 0px;
         padding-left: 10px;
