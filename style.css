@@ -481,7 +481,6 @@ li{
 }
 .block-medium .image-medium{
     height: 255px;
-    background-color: #bac964;
 }
 .image-medium img{
     max-width: 100%;
@@ -634,7 +633,7 @@ li{
 }
 
 
-@media (max-width: 1180px) {
+@media (max-width: 980px) {
     .entete-cacher{
         display: block;
         background: #fff;
@@ -677,8 +676,8 @@ li{
     }
     .conteinary-portfolio .images-portfolio .block-image{
         text-align: center;
-        width: 350px;
-        height: 400px;
+        width: 100%;
+        height: 100%;
         margin-left: 10px;
         margin-right: 10px;
         margin-top: 10px;
@@ -686,7 +685,7 @@ li{
     }
     .conteinary-portfolio .images-portfolio .block-image img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
     /* la section resume */
     .section-resume{
@@ -704,14 +703,33 @@ li{
       font-weight: 700;
     }
     .conteinary-resume .conteny-resume{
+        margin: 2%;
+    }
+    .left-Education{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 2%;
+        width: 100%;
+        height: 100%;
+    }
+    .left-Education span{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .right-Experience{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+    .right-Experience span{
+        width: 100%;
+        margin-left: 10px;
     }
     .conteinary-resume .block-resume{
         font-weight: normal;
-        width: 345px;
+        width: 100%;
         height: auto;
         margin-left: 10px;
         margin-right: 10px;
@@ -736,7 +754,7 @@ li{
     }
     .conteny-about .img-about{
         font-weight: 800;
-        width: 345px;
+        width: 100%;
         height: 310px;
         margin-top: 10px;
         margin-left: 10px;
@@ -745,18 +763,20 @@ li{
     }
     .img-about img{
         font-weight: 800;
-        width: 345px;
+        width: 100%;
         height: 310px;
         vertical-align: middle;
     }
     .conteny-about .about-me{
-        width: 345px;
-        height: 315px;
+        text-align: left;
+        width: 100%;
+        height: auto;
         font-weight: 300;
         font-size: 15px;
         vertical-align: middle;
         color: rgba(240, 248, 255, 0.5);
         padding: 5px;
+        padding-bottom: 20px;
         margin-top: 0;
         margin-left: 10px;
         margin-right: 10px;
@@ -786,7 +806,7 @@ li{
         margin: 2%;
     }
     .block-testimonial{
-        width: 350px;
+        width: 100%;
         height: 280px;
         margin-left: 20px;
         margin-right: 20px;
@@ -794,15 +814,15 @@ li{
         margin-bottom: 7%;
     }
     .block-testimonial .image{
-        margin-left: 5px;
+        margin-left: 0px;
     }
     .block-testimonial .contenu-client{
-        width: 350px;
-        margin-left: 15px;
-        height: 280px;
+        width: 100%;
+        height: 100%;
+        margin-left: 20px;
         padding-top: 0px;
         padding-left: 10px;
-        padding-bottom: 10px;
+        padding-right: 20px;
         padding-bottom: 0;
     }
     /* section service */
@@ -819,8 +839,8 @@ li{
         margin: 2%;
     }
     .contenu-service .block-service{
-        width: 345px;
-        height: 350px;
+        width: 100%;
+        height: auto;
         padding: 10px;
         padding-top: 25px;
         margin: 10px;
@@ -835,6 +855,27 @@ li{
     }
     .block-service h3{
         margin-top: 20px;
+    }
+    /* section medium */
+    .section-medium {
+        display: flex;
+        justify-content: center;
+    }
+    .contenu-medium .block-medium{
+        width: 100%;
+        height: auto;
+        padding-bottom: 15px;
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .block-medium .image-medium{
+        width: 100%;
+        height: auto;
+    }
+    .image-medium img{
+        width: 100%;
+        height: auto;
     }
     /*section contact*/
     .section-contact{
