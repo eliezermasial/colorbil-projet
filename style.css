@@ -629,6 +629,9 @@ li{
     letter-spacing: 0.1em;
     margin-bottom: 5px;
 }
+.MyContact-Details ul li p{
+    color: #cac7c7;
+}
 
 
 @media (max-width: 1180px) {
