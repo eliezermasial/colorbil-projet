@@ -127,14 +127,15 @@ li{
 }
 .conteinary-portfolio .images-portfolio .block-image{
     text-align: center;
-    width: 350px;
-    height: 420px;
-    margin-right: 25px;
+    width: 330px;
+    height: auto;
+    margin-right: 15px;
+    margin-left: 15px;
     margin-bottom: 10px;
 }
 .conteinary-portfolio .images-portfolio .block-image img{
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 .images-portfolio .block-image .paragraph-image{
     text-transform: capitalize;
@@ -154,6 +155,20 @@ li{
 }
 
 /* la section resume de ce site */
+.section-resume{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.conteinary-resume{
+   width: 100%;
+}
+.conteinary-resume .conteny-resume{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2%;
+}
 .my-resume{
     display: flex;
     justify-content: center;
@@ -174,20 +189,6 @@ li{
     font-size: 30px;
     margin-right: 20px;
   }
-.section-resume{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10%;
-}
-.conteinary-resume{
-   width: 100%;
-}
-.conteinary-resume .conteny-resume{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 2%;
-}
 
 .conteinary-resume span{
     font-size: 30px;
@@ -202,7 +203,7 @@ li{
     background-color: #333;
     border: solid 1px #22222298;
     border-radius: 8px;
-    margin: 25px;
+    margin: 15px;
     margin-bottom: 5%;
     padding: 15px;
 }
@@ -227,43 +228,27 @@ li{
     display: flex;
     justify-content: center;
     margin: 2%;
+    margin: 15px;
 }
 .conteny-about .img-about{
-    text-align: center;
-    width: 560px;
-    height: 420px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 15px;
-    
+    width: 550px;
 }
 .img-about img{
-    width: 560px;
-    height: 420px;
+    width: 100%;
     vertical-align: middle;
-    font-weight: 800;
 }
 .conteny-about .about-me h2{
-    font-size: 30px;
     color: #fdfdfdcc;
-    margin-top: 0px;
 }
 .conteny-about .about-me{
-    font-weight: 300;
-    vertical-align: middle;
-    color: rgba(240, 248, 255, 0.5);
     width: 500px;
-    height: 350px;
-    padding: 25px;
-    padding-left: 30px;
-    padding-right: 12px;
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-left: 20px;
-   
+    padding-left: 10px;
+    color: rgba(240, 248, 255, 0.5);
+    margin: 15px;
+    margin-left: 22px;
 }
 .conteny-about .about-me .about-lien{
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .conteny-about .about-me a{
     text-transform: uppercase;
@@ -328,7 +313,7 @@ li{
     display: flex;
     width: 510px;
     height: auto;
-    margin: 25px;
+    margin: 20px;
     margin-bottom: 5%;
 }
 .block-testimonial .image{
@@ -614,10 +599,12 @@ li{
     margin-top: 0;
     margin-bottom: 5%;
 }
-
 .MyContact-Details ul{
     font-size: 14px;
     padding-left: 0;
+}
+.MyContact-Details ul li{
+    text-decoration: none;
 }
 .MyContact-Details ul li span{
     font-size: 12px;
@@ -627,15 +614,29 @@ li{
     margin-bottom: 5px;
 }
 .MyContact-Details ul li p{
-    color: #cac7c7;
+    color: #666666;
     margin-top: 0;
     margin-bottom: 2px;
 }
+/*footer de ce site*/
+
 footer{
     display: flex;
     justify-content: center;
     margin: 2%;
     margin-bottom: 10%;
+}
+.conteinary-footer .presentation-footer{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.conteinary-footer .presentation-footer p{
+    color: #666666;
+}
+.conteinary-footer .presentation-footer p a{
+    text-decoration: none;
+    color: #bac964;
 }
 .conteinary-footer .icons{
     display: flex;
@@ -643,13 +644,13 @@ footer{
     margin-top: 50px;
 }
 footer .icons p a{
-    padding: 20px;
-    
+    text-align: center;
+    font-weight: 600;
+    padding: 10px;
+    padding-bottom: 5px;
     color: #bac964;
     background-color: #333;
     border-radius: 100px;
-    text-align: center;
-    font-weight: 600;
 }
 footer p svg{
     fill: currentColor;
@@ -783,7 +784,6 @@ footer p svg{
     .conteny-about .img-about{
         font-weight: 800;
         width: 100%;
-        height: 310px;
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
@@ -792,13 +792,12 @@ footer p svg{
     .img-about img{
         font-weight: 800;
         width: 100%;
-        height: 310px;
+        height: auto;
         vertical-align: middle;
     }
     .conteny-about .about-me{
         text-align: left;
         width: 100%;
-        height: auto;
         font-weight: 300;
         font-size: 15px;
         vertical-align: middle;
@@ -835,9 +834,9 @@ footer p svg{
     }
     .block-testimonial{
         width: 100%;
-        height: 280px;
-        margin-left: 20px;
-        margin-right: 20px;
+        height: auto;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-top: 0;
         margin-bottom: 7%;
     }
@@ -953,5 +952,15 @@ footer p svg{
     }
     .MyContact-Details h3{
         font-size: 25px;
+    }
+    .conteinary-footer .presentation-footer{
+        display: block;
+        
+        width: 100%;
+        text-align: center;
+    }
+    .conteinary-footer .presentation-footer p{
+        margin-left: 2px;
+        font-size: 15px;
     }
 }
