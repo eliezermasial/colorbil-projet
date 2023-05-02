@@ -17,6 +17,9 @@ body{
     height: 70px;
     width: 100%;
 }
+.entete-cacher button .icon-menu{
+    fill: rgba(66, 67, 68, 0.678);
+}
 .entete-cacher button{
     background: #fff;
     border: solid 1px #cac7c7;
@@ -919,7 +922,7 @@ footer p svg{
         padding: 10px;
         padding-top: 0;
         padding-bottom: 5px;
-        margin-left: 0;
+        margin-left: 5px;
     }
     .contenu-contact h3{
         font-family: initial;
