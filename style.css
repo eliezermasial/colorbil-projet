@@ -378,7 +378,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vh;
+    height: 7vh;
     font-size: 30px;
 }
 .contenu-service{
@@ -403,10 +403,14 @@ li{
     width: 100px;
     height: 100px;
     margin: auto;
-     background-color: #bac964;
-     border: #bac964;
-     border-radius: 100px;
-     text-align: center;
+    background-color: #bac964;
+    border: #bac964;
+    border-radius: 100px;
+    text-align: center;
+ }
+ .block-service svg{
+    width: 50px;
+    height: 100px;
  }
 .block-service h3{
     font-size: 20px;
@@ -447,7 +451,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vh;
+    height: 5vh;
     font-size: 30px;
 }
 .conteinary-medium .contenu-medium{
@@ -516,7 +520,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 14vh;
+    height: 16vh;
     margin-right: 10px;
     font-size: 30px;
     font-family: initial;
@@ -526,7 +530,7 @@ li{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 6vh;
+    height: 7vh;
     font-size: 30px;
 }
 .contenu-contact{
@@ -644,21 +648,25 @@ footer{
 .conteinary-footer .icons{
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
     margin-top: 50px;
 }
 footer .icons p a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-weight: 600;
     padding: 10px;
-    padding-bottom: 5px;
     color: #bac964;
     background-color: #333;
-    border-radius: 100px;
+    border-radius: 50px;
 }
 footer p svg{
     fill: currentColor;
     width: 20px;
     height: 20px;
+
 }
 
 
